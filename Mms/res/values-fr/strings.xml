@@ -65,6 +65,7 @@
     <string name="select_different_media">Sélectionnez un autre %1$s.</string>
     <string name="exceed_message_size_limitation">Taille maximale atteinte pour ce message.</string>
     <string name="message_too_big_for_video">Impossible de joindre une vidéo. Le message est trop volumineux.</string>
+    <string name="message_too_big_for_audio">Impossible de joindre un fichier audio. Le message est trop volumineux.</string>
     <string name="failed_to_add_media">Désolé, vous ne pouvez pas ajouter cet élément à votre message : %1$s</string>
     <string name="failed_to_resize_image">L\'image n\'a pas été redimensionnée.</string>
     <string name="resize_image_error_information">Désolé, l\'image redimensionnée est toujours trop lourde.</string>

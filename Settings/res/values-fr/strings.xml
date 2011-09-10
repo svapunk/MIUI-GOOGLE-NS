@@ -340,6 +340,7 @@
     <string name="wifi_eap_anonymous">Anonyme</string>
     <string name="wifi_wapi_psk_type">Type de Mot de passe</string>
     <string name="wifi_password">Mot de passe</string>
+    <string name="wifi_password_incorrect">Mot de passe incorrect, réessayez.</string>
     <string name="wifi_show_password">Afficher le mot de passe</string>
     <string name="wifi_wapi_as_certificate">Certificat AS</string>
     <string name="wifi_wapi_user_certificate">Certificat d\'utilisateur</string>
@@ -484,6 +485,10 @@
     <string name="sd_ejecting_title">Désactivation en cours</string>
     <string name="sd_ejecting_summary">Désactivation en cours</string>
     <string name="apn_settings">APN</string>
+   <string name="apn_auto_switch_setting_title">Changement automatique</string>
+    <string name="apn_auto_switch_setting_summary">Permet au système de choisir automatiquement l\'APN qui convient (sauf MMS)</string>
+    <string name="apn_auto_switch_dialog_message">Si désactivé, l\'APN par défaut sera utilisé ce qui peut être une cause d\'erreur.\nVoulez vous vraiment désactiver ce paramètre?</string>
+    <string name="apn_edit">Editer l\'APN</string>
     <string name="apn_edit">Modifier le point d\'accès</string>
     <string name="apn_not_set">&lt;Non défini></string>
     <string name="apn_name">Nom</string>
@@ -1078,9 +1083,13 @@
     <string name="camera_key_action_setting_title">Appuyer sur le bouton MI</string>
     <string name="camera_key_action_category_title">Réaliser l\'opération si dans l\'appareil photo</string>
     <string name="camera_key_action_none_title">Ne rien faire</string>
-    <string name="camera_key_action_home_title">Retour à l\'accueil</string>
+    <string name="camera_key_action_shortcut_title">Choisir une action</string>
     <string name="camera_key_action_toggle_title">Bouton de déclenchement</string>
     <string name="camera_key_action_app_title">Ouvrir l\'application</string>
+    <string name="camera_key_action_shortcut_home">Retour au bureau</string>
+    <string name="camera_key_action_shortcut_screenshot">Prendre une capture d\'écran</string>
+    <string name="camera_key_action_shortcut_search">Recherche</string>
+    <string name="camera_key_action_shortcut_call">Appeler</string>
     <string name="trackball_wake_title">Réveil par Trackball</string>
     <string name="device_cpu2_info">Double coeur</string>
     <string name="install_development_settings_title">Installation et débogage</string>
@@ -1372,8 +1381,8 @@
     <string name="cit_charger_current">Courant de charge: %dmA</string>
     <string name="cit_charger_current_error">Impossible d\'obtenir la valeur du courant de charge</string>
     <string name="miui_copyright_title">Copyright</string>
-    <string name="miui_license_title">Licence MIUI</string>
-    <string name="miui_market_license_title">Licence MIUI</string>
+    <string name="miui_license_title">Conditions d\'utilisation</string>
+    <string name="miui_market_license_title">Informations relatives au App Market MIUI</string>
     <string name="sound_settings">Paramètres sonores</string>
     <string name="silent_mode_title">Mode silencieux</string>
     <string name="silent_mode_summary">Aucun son, sauf pour le multimédia et le réveil</string>
@@ -1422,9 +1431,6 @@
     <string name="mms_vibrate_abbreviation">SMS</string>
     <string name="no_vibrate_item">Pas de vibration</string>
     <string name="haptic_feedback_level">Intensité du retour haptique</string>
-    <string name="dual_microphone_enable_title">Activer le système anti bruit de fond</string>
-    <string name="dual_microphone_enable_summary_on">Activer le micro anti bruits de fond</string>
-    <string name="dual_microphone_enable_summary_off">Désactiver le micro anti bruits de fond</string>
     <string name="apn_delete_confirm_dialog_title">Supprimer l\'APN</string>
     <string name="apn_delete_confirm_dialog_message">Confirmez vous vouloir supprimer cet APN?</string>
     <string name="sensor_accelerometer">Accéléromètre</string>

@@ -169,7 +169,7 @@
     <string name="folder">Dossier</string>
     <string name="music_filter_helper">Afin d\'améliorer l\'expérience musicale, les fichiers de moins de 800Ko seront automatiquement supprimé, car ils ne sont généralement pas des chansons. Vous pouvez régler le seuil ou désactiver la fonction de filtre dans le menu paramètre</string>
     <string name="min_muisic_size">Taille mini</string>
-    <string name="muisic_filter">Filtrage</string>
+    <string name="music_filter">Filtrage</string>
     <string name="folder_renamed_message">Le dossier a été renommé</string>
     <string name="filter_by_folder">Filtrer par dossier</string>
     <string name="select_folder">Sélectionnez le dossier que vous souhaitez afficher</string>
@@ -237,8 +237,8 @@
     <string name="durationformatshort">%2$2d:%5$02d</string>
     <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
     <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
-    <string name="url_default_lyric">http://120.195.13.122/q?title=%s&amp;artist=%s</string>
-    <string name="url_album">http://xshare.api.xiaomi.com/xShare?do=mp3.cover.search&amp;album=%s&amp;artist=%s</string>
+    <string name="url_default_lyric">http://120.195.13.122/q?title=%1$s&amp;artist=%2$s</string>
+    <string name="url_album">http://xshare.api.xiaomi.com/xShare?do=mp3.cover.search&amp;album=%1$s&amp;artist=%2$s</string>
     <string name="url_feedback">http://sj.xiaomi.com/miniphp/ajax.php</string>
     <string name="url_update">http://xshare.api.xiaomi.com/player</string>
     <string name="url_debug_update">http://intranet.xiaomi.com/player</string>

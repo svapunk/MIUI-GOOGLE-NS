@@ -23,11 +23,12 @@
     <string name="delete_backup">Suppression de la sauvegarde</string>
     <string name="delete_backup_confirm">Confirmez-vous la suppression de la sélection ?</string>
     <string name="delete_backup_process">Suppression de la sélection, veuillez patientez...</string>
-    <string name="delete_failed_backup_process">La suppression a échouée !</string>
+    <string name="backup_error">Erreur de sauvegarde</string>
+    <string name="delete_failed_backup_confirm">Le fichier de sauvegarde comprte une erreur, restauration impossible.</string>
     <string name="batch_delete_backup_confirm">Confirmez-vous la suppression de la sélection ?</string>
     <string name="start_restore">Restauration</string>
     <string name="backup_file_error">Problème fichiers de sauvegarde, l\'opération n\'est pas valide.</string>
-    <string name="unit_byte">B</string>
+    <string name="unit_byte">O</string>
     <string name="unit_piece">\u0020élément(s)</string>
     <string name="restore_finished">Restauration terminée</string>
     <string name="restore_report">Rapport de restauration</string>
@@ -57,9 +58,12 @@
     <string name="cloud_backup_hint">Vous devez être connecté pour sauvegarder et restaurer des données\nUtilisez la sauvegarde automatique afin d\'assurer la sécurité des données</string>
     <string name="cloud_backup_window_title">Sauvegarde réseau</string>
     <string name="cloud_restore_window_title">Récupération des données</string>
+    <string name="cloud_restore_title">Restauration des données sauvegardées</string>
     <string name="local_backup_window_title">Sauvegarde de données</string>
     <string name="local_restore_window_title">Récupération de données locales</string>
     <string name="account_login">Connectez-vous maintenant</string>
+    <string name="miliao_account_login">Se connecter à MiTalk</string>
+    <string name="miliao_account_guide">MiTalk a été associé à votre compte Xiaomi.\n Profitez maintenant de tous les services en ligne.</string>
     <string name="auto_backup">Sauvegarde automatique</string>
     <string name="contact_title">Contacts</string>
     <string name="call_title">Journal des appels</string>
@@ -69,17 +73,6 @@
     <string name="compute_backup_info">Récupération des informations de sauvegarde</string>
     <string name="compute_delete_contact_info">Désirez-vous supprimer les informations de contacts</string>
     <string name="unknown_hint">Inconnu</string>
-    <string name="unknown_name">Sans nom</string>
-    <string name="store_named">Désignation de la sauvegarde de la carte SIM</string>
-    <string name="named_hint1">Détection de sauvegardes multiples</string>
-    <string name="named_hint2">Sauvegarde les messages et le journal d\'appels présents sur la carte SIM</string>
-    <string name="named_hint3">Veuillez utiliser le numéro de téléphone pour identifier les différents fichiers</string>
-    <string name="named_last_sim">Dernière sauvegarde en utilisant le nom de la carte SIM</string>
-    <string name="named_current_sim">Utiliser la désignation actuel de la carte SIM pour la sauvegarde</string>
-    <string name="named_current_sim2">Désignation actuel de la carte SIM</string>
-    <string name="named_sim_hint">Entrer le numéro de téléphone lié à la carte SIM</string>
-    <string name="named_hint6">Utiliser les désignations de carte SIM pour la sauvegarde des données</string>
-    <string name="named_alert">Veuillez nommer la carte SIM</string>
     <string name="task_progress">Calendrier général</string>
     <string name="task_pending">Attente</string>
     <string name="task_pre_running">Pré-traitement</string>
@@ -160,4 +153,6 @@
     <string name="reverse_all">Aucun</string>
     <string name="refresh">Rafraîchir</string>
     <string name="cloud_item_info_summary">(Locale %1$s | En ligne %2$s)</string>
+    <string name="total_num">%d enregistrement(s) au total</string>
+    <string name="cloud_restore_guide">Cliquer sur [Commencer la restauration] pour restaurer les données\n Vous pouvez aussi restaurer %s dans MIUI Backup</string>
 </resources>

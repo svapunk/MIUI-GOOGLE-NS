@@ -2,7 +2,7 @@
 <resources>
     <string name="camera_error_title">Erreur</string>
     <string name="cannot_connect_camera">Impossible d\'établir une connexion avec l\'appareil photo.</string>
-    <string name="camera_label">MIUI Camera</string>
+    <string name="camera_label">Camera</string>
     <string name="video_camera_label">Caméra MIUI</string>
     <string name="gallery_camera_bucket_name">Photos de l\'appareil</string>
     <string name="gallery_camera_videos_bucket_name">Vidéos de la caméra</string>

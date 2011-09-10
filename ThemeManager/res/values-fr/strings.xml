@@ -13,6 +13,9 @@
     <string name="theme_description_title_default">Par défaut</string>
     <string name="theme_description_title_customized">Personnalisé</string>
     <string name="component_category_title">Changer le style local</string>
+    <string name="component_category_style_title">Eléments principaux</string>
+    <string name="component_category_wallpaper_title">Fonds d\'écran</string>
+    <string name="component_category_ringtone_title">Sonneries</string>
     <string name="theme_component_title_framework">Système</string>
     <string name="theme_component_title_mms">Applications MMS</string>
     <string name="theme_component_title_wallpaper">Fonds d\'écran</string>

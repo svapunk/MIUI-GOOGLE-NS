@@ -22,6 +22,7 @@
     <string name="service_disabled">Service arrêté</string>
     <string name="service_unavailable">Service non disponible</string>
     <string name="network_error">Erreur de connexion réseau</string>
+    <string name="has_bound">Etat inconnu</string>
     <string name="unknown">Erreur inconnue</string>
     <string name="by_email">Par email</string>
     <string name="by_mobile">Par mobile</string>
@@ -39,11 +40,14 @@
     <string name="login_account_suggestion2">Si vous n\'avez pas de compte MIUI, veuillez en créer un</string>
     <string name="user_agreement1">En créant ce compte, vous acceptez</string>
     <string name="user_agreement2">les conditions d\'utilisation du service.</string>
+    <string name="user_agreement3">\u0020et\u0020</string>
+    <string name="user_agreement4">les conditions de confidentialité</string>
     <string name="loging_on">Tentative de connexion</string>
     <string name="invalid_phone_number">Numéro de téléphone invalide</string>
     <string name="invalid_vercode">Entrez le code de vérification reçu</string>
     <string name="invalid_password">Votre mot de passe doit contenir de 6 à 16 caractères</string>
     <string name="forget_password">Oublier le mot de passe:</string>
     <string name="sending_request">Requête en cours...</string>
-    <string name="succeed">Réussi!!!</string>
+    <string name="succeed">Terminé</string>
+    <string name="settings_safetylegal_activity_unreachable">Votre téléphone est connecté à un service de données. Pour en savoir plus, rendez vous sur %s depuis n\'importe quel ordinateur connecté à Internet.</string>
 </resources>

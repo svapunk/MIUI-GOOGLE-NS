@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app_name">Anti-Spam</string>
+    <string name="app_name">AntiSpam</string>
     <string name="firewall_settings_tab_title">Règles de blocage</string>
     <string name="black_white_list_tab_title">Liste noire</string>
     <string name="call_log_tab_title">Appels</string>
@@ -64,6 +64,8 @@
     <string name="fw_restore_ms">Retour au SMS</string>
     <string name="fw_ms">SMS bloqués:%s (%d)</string>
     <string name="fw_call">Appels bloqués:%s (%d)</string>
+    <string name="fw_import_blacklist">Importer une liste noire</string>
+    <string name="fw_import_whitelist">Importer une liste blanche</string>
     <string name="fw_blacklist_hint">Liste noire par défaut, bloque tous les appels et les SMS. Ajouter les numéros que vous souhaitez bloquer ici</string>
     <string name="fw_whitelist_hint">Liste blanche par défaut, entrez vos numéros de confiance ici</string>
     <string name="fw_no_effect">Le blocage n\'est pas activé, voulez vous le lancer ?</string>

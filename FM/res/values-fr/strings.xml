@@ -58,9 +58,12 @@
     <string name="toast_edit_station">Changement enregistré</string>
     <string name="toast_edit_save_station_fail">Impossible d\'éditer la station</string>
     <string name="toast_save_station">%sMHz enregistré</string>
-    <string name="fmradio_exit_in_calling">La radio ne jouera pas pendant un appel</string>
+    <string name="fmradio_in_calling_at_begin">La radio ne jouera pas pendant un appel</string>
     <string name="fmradio_no_headset_at_begin">Branchez le casque pour utiliser la radio</string>
-    <string name="fmradio_no_headset_in_listen">Radio FM désactivée, veuillez rebrancher le casque</string>
+    <string name="fmradio_start_error">Erreur vérifiez que le casque soit bien branché et redémarrez l\'application en cas de persistance</string>
+    <string name="fmradio_no_headset_in_listen">Vous ne pouvez pas utiliser la radio si vous débranchez le casque</string>
+    <string name="fmradio_on_airplane_mode_in_listen">Vous ne pouvez pas utiliser la radio en mode avion</string>
+    <string name="fmradio_stop_unexpected">Erreur inattendue</string>
     <string name="sleep_mode">Mode Veille</string>
     <string name="popup_time">%d minutes</string>
     <string name="select_quit_time">Sélectionner le temps d\'arrêt automatique (en minutes)</string>

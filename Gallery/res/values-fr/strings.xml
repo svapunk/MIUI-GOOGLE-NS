@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app_name">MIUI Galerie</string>
+    <string name="app_name">Galerie</string>
     <string name="support_gif_animation">Afficher les .gif</string>
     <string name="support_gif_animation_summary">Peut affecter les performances et consomment plus de mémoire</string>
     <string name="filter_small_image">Filtrage des miniature</string>
@@ -157,4 +157,5 @@
     <string name="select_photo">Sélectionnez une photo</string>
     <string name="select_frame">Sélectionnez une image</string>
     <string name="photo_confirm">Valider</string>
+    <string name="photo_load_failed">Chargement de la photo échoué!</string>
 </resources>

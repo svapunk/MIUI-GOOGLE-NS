@@ -30,9 +30,17 @@
     <string name="pref_summary_enable_sound_effect">Jouer un son lorsque l\'état est changé</string>
     <string name="notification_recording">Enregistrement</string>
     <string name="notification_stopped">Enregistrement stoppé</string>
+    <string name="notification_warning">Espace libre faible (moins de %d minutes)...</string>
     <string name="record_list">Liste des enregistrements</string>
     <string name="sd_card_not_available">Carte SD indisponible</string>
     <string name="call_record">Enregistrement d\'appel</string>
     <string name="open_file_explorer">Ouvrir l\'explorateur de fichiers</string>
     <string name="no_file">Aucun enregistrement</string>
+    <string name="mark_now">(Actuel)</string>
+    <string name="second">%d seconde</string>
+    <string name="minute">%d minute</string>
+    <string name="hour">%d heure</string>
+    <string name="dialog_play">Lire</string>
+    <string name="dialog_send">Envoyer</string>
+    <string name="dialog_delete">Supprimer</string>
 </resources>

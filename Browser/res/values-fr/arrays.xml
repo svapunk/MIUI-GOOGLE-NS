@@ -170,7 +170,7 @@
     </string-array>
     <string-array name="pref_long_click_choices">
         <item>Afficher le menu contextuel</item>
-        <item>Ouvrir un lien dans un nouvel onglet et le commutateur</item>
+        <item>Ouvrir un lien dans un nouvel onglet en avant-plan</item>
         <item>Ouvrir un lien dans un nouvel onglet en arrière-plan</item>
     </string-array>
     <string-array name="pref_link_choices_values">
