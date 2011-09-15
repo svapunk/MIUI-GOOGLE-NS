@@ -190,12 +190,12 @@
     <string name="add_smiley">Smiley</string>
     <string name="add_phrase">Phrase</string>
     <string name="add_contact">Contact</string>
-    <string name="add_nickname">Surnom</string>
-    <string name="add_festival">Festival</string>
-    <string name="add_nickname_title">Modification de surnom</string>
+    <string name="add_nickname">Pseudo</string>
+    <string name="add_festival">Recommandé</string>
+    <string name="add_nickname_title">Modification du pseudo</string>
     <string name="edit_nickname_for_nocontact">Vous n\'avez pas ajouté de destinataire. Veuillez ajoutez un destinataire, puis cliquez sur édition.</string>
     <string name="edit_nickname_for_nocontact_by_robot">Une fois le destinataire ajouté, cliquez sur le Surnom afin de le modifier</string>
-    <string name="nickname_placeholder">Appel</string>
+    <string name="nickname_placeholder">Pseudo</string>
     <string name="select_bottom_text">Texte en bas de l\'écran</string>
     <string name="select_top_text">Texte en haut de l\'écran</string>
     <string name="delivery_toast_body">Message reçu par %s</string>
@@ -280,9 +280,9 @@
     <string name="message_pending">En attente</string>
     <string name="message_readed">Lu</string>
     <string name="message_rejected">Rejeté</string>
-    <string name="resent_message">Retransmettre</string>
-    <string name="group_resend_message">Retransmission (%d)</string>
-    <string name="nosend_message">Non fait</string>
+    <string name="resent_message">Réenvoyer</string>
+    <string name="group_resend_message">Réenvoi (%d)</string>
+    <string name="nosend_message">Non envoyé</string>
     <string name="group_message_failed_title">sélectionner et renvoyer les %d messsages non envoyés?</string>
     <string name="context_menu_view_mms">Voir le MMS</string>
     <string name="context_menu_dial">Composer</string>
@@ -297,7 +297,7 @@
     <string name="context_menu_contact">Contact : %1$s</string>
     <string name="pref_theme_modify">Personnaliser le thème</string>
     <string name="pref_sms_theme_title">Apparence et style</string>
-    <string name="pref_conversation_show_avatar">Afficher</string>
+    <string name="pref_conversation_show_avatar">Afficher avatar</string>
     <string name="pref_messaging_style">Style de conversation</string>
     <string name="pref_time_auto_group_title">Regroupement intelligent</string>
     <string name="pref_time_auto_group_summary">Grouper les messages par heure</string>
@@ -333,7 +333,7 @@
     <string name="pref_other_title">Autres</string>
     <string name="pref_advanced_settings_title">Paramètres avancés</string>
     <string name="pref_title_delivery_ringtone">Notification des accusés réception</string>
-    <string name="pref_title_allow_3rd_mms">Accès des applications</string>
+    <string name="pref_title_allow_3rd_mms">Applications tierces de messagerie</string>
     <string name="pref_summary_allow_3rd_mms">Autoriser des applications tierces à accéder aux SMS</string>
     <string name="pref_edit_smsc_address">Numéro du centre SMS</string>
     <string name="pref_title_filter_phone">Filtrer les numéros</string>
@@ -355,7 +355,7 @@
     <string name="batch_deleting_message_progress_message">Supprimer le(s) message(s) choisi(s)</string>
     <string name="delete_subject">Supprimer</string>
     <string name="messaging_intent_label">Message SMS/MMS</string>
-    <string name="flatshow_page_no">%1$d</string>
+    <string name="flatshow_page_no">Page %1$d</string>
     <string name="loading_contacts">Chargement des contacts...</string>
     <string name="prepare_send">Envoi en cours...</string>
     <string name="activity_not_found">Impossible de trouver le processus lié</string>
@@ -364,7 +364,7 @@
     <string name="chenghu_disable_mms">La modification de l\'adresse MMS est invalide</string>
     <string name="recent_contact_list_title">Contacts récents</string>
     <string name="conversation_list_empty_text">Aucun message</string>
-  <string name="non_english_subject_limit">Maximum 13 caractères pour un sujet non anglais</string>
+  <string name="non_english_subject_limit">Maximum 13 caractères pour un sujet non anglophone</string>
     <string name="text_in_popup_saved_to_clipboard">Le texte édité dans la fenêtre de prévisualisation a été copié dans le presse-papiers</string>
     <string name="guild_add_recipients">Cliquez ici pour ajouter les destinataires au carnet d\'adresses</string>
     <string name="guild_add_attachments">Cliquez ici pour ajouter pièces jointes ou smileys au message</string>

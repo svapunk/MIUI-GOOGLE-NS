@@ -5,7 +5,7 @@
     <string name="theme_changing_dialog_title">Application du nouveau thème en cours...</string>
     <string name="theme_changed_message">Configuration réussie!</string>
     <string name="theme_changed_failed_message">Oups, configuration échouée!</string>
-    <string name="backup_preference_title">Sauvegarder les paramètres de thème actuel</string>
+    <string name="backup_preference_title">Sauvegarder les paramètres du thème courant</string>
     <string name="backup_theme_dialog_ok">Ok</string>
     <string name="backup_theme_dialog_message">Sauvegarder le thème actuel sur la carte SD :\n\\MIUI\\theme\\backup\\backup.mtz</string>
     <string name="backup_theme_progress_message">Sauvegarde du thème, patience...</string>
@@ -19,10 +19,10 @@
     <string name="theme_component_title_framework">Système</string>
     <string name="theme_component_title_mms">Applications MMS</string>
     <string name="theme_component_title_wallpaper">Fonds d\'écran</string>
-    <string name="theme_component_title_lockwallpaper">Ecrans de verrouillage</string>
+    <string name="theme_component_title_lockwallpaper">Ecrans de verrouill.</string>
     <string name="theme_component_title_icon">Icônes</string>
-    <string name="theme_component_title_boot_animation">Animations de démarrage</string>
-    <string name="theme_component_title_boot_audio">Sons de démarrage</string>
+    <string name="theme_component_title_boot_animation">Anim. démarrage</string>
+    <string name="theme_component_title_boot_audio">Sons démarrage</string>
     <string name="theme_component_title_font">Polices</string>
     <string name="theme_component_title_ringtone">Sonneries</string>
     <string name="theme_component_title_notification">Notifications</string>
@@ -47,7 +47,7 @@
     <string name="component_include_title">Contient les modules (%1$s)</string>
     <string name="component_screen_title">Fond d\'écran</string>
     <string name="resource_fail_to_show">Ce thème ne contient pas les ressources nécessaires.</string>
-    <string name="new_format_convert">Convertir au nouveau format: %s</string>
+    <string name="new_format_convert">Convertir %s au nouveau format</string>
     <string name="old_format_title">Ancien format</string>
     <string name="old_format_fail">Conversion vers l\'ancien format échouée!</string>
     <string name="old_format_convert_tip1">Le thème n\'est plus dans le bon format, sa conversion peut prendre du temps.</string>

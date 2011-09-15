@@ -31,7 +31,7 @@
     </string-array>
     <string-array name="pref_volume_setting_enable_choice">
         <item>Toujours appliquer le bouton de réglage du volume</item>
-        <item>Appliquer seulement si aucun jouer de la musique</item>
+        <item>Appliquer seulement lors de la lecture de musique</item>
     </string-array>
     <string-array name="pref_volume_setting_enable_choice_value">
         <item>ALWAYS</item>
@@ -92,10 +92,9 @@
         <item>NEVER_SHOW</item>
     </string-array>
     <string-array name="pref_hide_statusbar_choices">
-        <item>Paramètres d\'affichage de la barre de notification</item>
-        <item>Masquer la barre de notification</item>
-        <item>Masquer automatiquement la barre de notification</item>
-    </string-array>
+        <item>Toujours afficher la barre d\'état</item>
+        <item>Toujours masquer la barre d\'état</item>	
+        <item>Automatique</item>   </string-array>
     <string-array name="pref_hide_statusbar_values">
         <item>ALWAYS_SHOW</item>
         <item>ALWAYS_HIDE</item>
@@ -104,7 +103,7 @@
     <string-array name="pref_simple_mode_choices">
         <item>Désactiver</item>
         <item>Activer</item>
-        <item>Activer avec une connexion non wifi</item>
+        <item>hors connexion Wi-Fi</item>
     </string-array>
     <string-array name="pref_simple_mode_values">
         <item>OFF</item>
@@ -140,7 +139,7 @@
         <item>CLOSE</item>
     </string-array>
     <string-array name="pref_user_agent_choices">
-        <item>Defaut android</item>
+        <item>Défaut</item>
         <item>Chrome Desktop</item>
         <item>iPhone 3</item>
         <item>iPhone 4</item>
@@ -155,8 +154,8 @@
     </string-array>
     <string-array name="pref_left_right_gesture_choices">
         <item>Aucun</item>
-        <item>Retour en avant</item>
-        <item>Onglets Switch</item>
+        <item>Précédent-Suivant</item>
+        <item>Changer onglets</item>
     </string-array>
     <string-array name="pref_left_right_gesture_choices_values">
         <item>NONE</item>
@@ -164,14 +163,14 @@
         <item>SWITCH_TABS</item>
     </string-array>
     <string-array name="pref_single_click_choices">
-        <item>Ouvrir le lien dans l\'onglet actuel</item>
-        <item>Ouvrir un lien dans un nouvel onglet et le commutateur</item>
-        <item>Ouvrir un lien dans un nouvel onglet en arrière-plan</item>
+        <item>Ouvrir dans l\'onglet courant</item>
+        <item>Ouvrir dans un nouvel onglet et l\'afficher</item>
+        <item>Ouvrir dans un nouvel onglet en arrière-plan</item>
     </string-array>
     <string-array name="pref_long_click_choices">
-        <item>Afficher le menu contextuel</item>
-        <item>Ouvrir un lien dans un nouvel onglet en avant-plan</item>
-        <item>Ouvrir un lien dans un nouvel onglet en arrière-plan</item>
+        <item>Afficher menu contextuel</item>
+        <item>Ouvrir dans un nouvel onglet et l\'afficher</item>
+        <item>Ouvrir dans un nouvel onglet en arrière-plan</item>
     </string-array>
     <string-array name="pref_link_choices_values">
         <item>DEFAULT</item>

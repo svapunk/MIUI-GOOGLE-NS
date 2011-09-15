@@ -5,15 +5,15 @@
     <string name="common_days_ago">%s la semaine dernière</string>
     <string name="app_name">Browser</string>
     <string name="app_settings">Réglages</string>
-    <string name="urltitlebar_gotourl">Go!</string>
+    <string name="urltitlebar_gotourl">Aller</string>
     <string name="urltitlebar_hint">Recherche ou taper url</string>
-    <string name="search_description">Favoris, Historique, Google Suggestions</string>
+    <string name="search_description">Favoris, Historique, Suggestions Google</string>
     <string name="browser_addnewtab">Nouvel onglet</string>
     <string name="bookmark_title">Nom</string>
     <string name="bookmark_url">URL</string>
     <string name="bookmark_folder">Dossier</string>
-    <string name="bookmark_folderpicker_header">Sélectionner un dossier</string>
-    <string name="night_mode_desc">Force l\'effet anti-color</string>
+    <string name="bookmark_folderpicker_header">Choisir un dossier</string>
+    <string name="night_mode_desc">Forcer l\'effet anti-couleur des sites web</string>
     <string name="menu_brightness_adjust">Luminosité</string>
     <string name="save">OK</string>
     <string name="back">Retour</string>
@@ -21,8 +21,8 @@
     <string name="cancel">Annuler</string>
     <string name="close">Fermer</string>
     <string name="go">Aller</string>
-    <string name="search">Trouver</string>
-    <string name="clear">Nettoyer</string>
+    <string name="search">Chercher</string>
+    <string name="clear">Effacer</string>
     <string name="feedback">Commentaire</string>
     <string name="exit">Quitter</string>
     <string name="do_not_save">Annuler</string>
@@ -49,7 +49,7 @@
     <string name="app_clear_cache">Vider le cache</string>
     <string name="bookmark_add_folder">Nouveau dossier</string>
     <string name="bookmark_folder_exist">Ce dossier existe déjà</string>
-    <string name="added_bookmark_folder">Votre favori a été créé</string>
+    <string name="added_bookmark_folder">Favori ajouté</string>
     <string name="open_link_background">Ouvert lien en arrière-plan.</string>
     <string name="reading_title">Lire :</string>
     <string name="bookmark_header_title">Opération</string>
@@ -94,7 +94,7 @@
     <string name="pref_privacy_clear_geolocation_access_summary">Empêcher les sites web d\'accéder à vos informations de localisation.</string>
     <string name="pref_privacy_clear_geolocation_access_dlg">Les sites web ne pourront plus accéder à vos informations de localisation.</string>
     <string name="pref_security_title">Confidentialité et sécurité</string>
-    <string name="pref_security_remember_passwords">Se souvenir des mots de passe</string>
+    <string name="pref_security_remember_passwords">Retenir les mots de passe</string>
     <string name="pref_security_remember_passwords_summary">Sauvegarder pseudo et mot de passe.</string>
     <string name="pref_security_save_form_data">Se souvenir des données de formulaire</string>
     <string name="pref_security_save_form_data_summary">Se souvenir des données saisies dans les formulaires pour une utilisation ultérieure.</string>
@@ -129,9 +129,9 @@
     <string name="reading_leave_reading_mode">Vous avez quitté le mode lecture.</string>
     <string name="reading_data_not_available">Reading the current page mode is not available, exit the read mode.</string>
     <string name="download_no_sdcard_dlg_title">Pas de carte SD</string>
-    <string name="download_no_sdcard_dlg_msg">La carte SD doit être accessible avant de pouvoir télécharger %s</string>
+    <string name="download_no_sdcard_dlg_msg">Une carte SD doit être montée pour télécharger %s</string>
     <string name="download_sdcard_busy_dlg_title">Carte SD occupée</string>
-    <string name="download_sdcard_busy_dlg_msg">La carte SD est occupée. Veuillez fermer la carte mémoire et essayez à nouveau.</string>
+    <string name="download_sdcard_busy_dlg_msg">La carte SD est occupée. Démontez la carte SD et réessayez SVP.</string>
     <string name="top_search_google">Google</string>
     <string name="top_search_baidu">Baidu</string>
     <string name="top_search_bing">Bing</string>
@@ -146,10 +146,10 @@
     <string name="contextmenu_sharelink">Partager Lien</string>
     <string name="contextmenu_copy">Copier</string>
     <string name="contextmenu_copylink">Copier URL</string>
-    <string name="contextmenu_showpageinfo">Page d\'infos Afficher</string>
+    <string name="contextmenu_showpageinfo">Afficher les Infos de la Page</string>
     <string name="contextmenu_download_image">Sauver Image</string>
     <string name="contextmenu_view_image">Voir Image</string>
-    <string name="contextmenu_set_wallpaper">Définir comme papier peint</string>
+    <string name="contextmenu_set_wallpaper">Définir comme papier-peint</string>
     <string name="contextmenu_dial_dot">Appeler ...</string>
     <string name="contextmenu_add_contact">Ajouter Contact</string>
     <string name="contextmenu_send_mail">E-Mail</string>
@@ -162,12 +162,12 @@
     <string name="page_info_view">Site d\'information</string>
     <string name="page_info_address">Adresse :</string>
     <string name="ssl_warnings_header">Ce site a un problème de certificat de sécurité</string>
-    <string name="ssl_continue">Poursuivre</string>
+    <string name="ssl_continue">Continuer</string>
     <string name="security_warning">Alerte de sécurité</string>
     <string name="view_certificate">Vérifier le certificat</string>
     <string name="ssl_untrusted">Le certificat ne provient pas d\'un site de confiance.</string>
     <string name="ssl_mismatch">Le nom du site ne correspond pas avec le nom du certificat.</string>
-    <string name="ssl_expired">Le certificat est expiré.</string>
+    <string name="ssl_expired">Le certificat a expiré.</string>
     <string name="ssl_not_yet_valid">Le certificat n\'est pas encore valide.</string>
     <string name="ssl_certificate">Certificat de sécurité</string>
     <string name="ssl_certificate_is_valid">Le certificat est valide.</string>
@@ -190,9 +190,9 @@
     <string name="search_engine_yahoo">Yahoo</string>
     <string name="browser_select_shortcut_url">Entrer URL</string>
     <string name="webpage_notitle">Page sans-titre</string>
-    <string name="tip_enter_full_screen_mode">Appuyez sur le coin inférieur droit pour quitter le mode plein écran.</string>
+    <string name="tip_enter_full_screen_mode">Appuyez sur l\'icône en bas à droite pour quitter le mode plein-écran.</string>
     <string name="email_subject">Miren Browser Feedback</string>
-    <string name="email_body">Commentaires du site : \n%s\n Laisser votre commentaire s\'il vous plait : \n\n</string>
+    <string name="email_body">Commentaires du site : \n%s\n Laissez votre commentaire s\'il vous plait : \n\n</string>
     <string name="submit">Soumettre</string>
     <string name="homepage_title">Accueil</string>
     <string name="reading_cached">a mis en cache %d pages.</string>
@@ -233,7 +233,7 @@
     <string name="setting_advanced">Avancés</string>
     <string name="pref_default_text_encoding">Encodage</string>
     <string name="pref_default_text_encoding_dialogtitle">Encodage</string>
-    <string name="pref_default_zoom">Reglage Zoom page</string>
+    <string name="pref_default_zoom">Réglages zoom page</string>
     <string name="pref_default_zoom_dialogtitle">Réglage du zoom de la page</string>
     <string name="pref_user_agent">User Agent</string>
     <string name="pre_auto_clean_cache_title">Vider le cache en quittant</string>
@@ -264,7 +264,7 @@
     <string name="play_video">lire la vidéo</string>
     <string name="player_not_found">lecteur ne trouve pas</string>
     <string name="pref_single_click">Action un seul clic</string>
-    <string name="pref_long_click">Cliquez sur l\'action à long</string>
+    <string name="pref_long_click">Action sur appui long</string>
     <string name="home_top_sites">Top sites</string>
     <string name="home_bookmark_favorite">Favoris</string>
     <string name="home_history">Historique</string>
@@ -283,7 +283,7 @@
     <string name="website_edit_succeed_message">Modifié avec succès</string>
     <string name="website_edit_failed_message">Echec de la modification</string>
     <string name="cannot_enter_full_screen">Impossible d\'entrer dans le mode plein écran</string>
-    <string name="exit_text_selection">Mode text OPTOUT</string>
+    <string name="exit_text_selection">Quitter la sélection du texte</string>
     <string name="pref_max_navigate_page_topsites_title">Nombre de favoris/historique</string>
     <string name="pref_max_navigate_page_topsites_summary">Nombre de favoris sur la page navigation et d\'éléments dans l\'historique</string>
     <string name="pref_max_navigate_page_topsites_message_succeed">Le nombre d\'éléments dans favoris et historique a été modifié avec succès à %d.</string>
@@ -295,7 +295,7 @@
     <string name="permdesc_downloadCompletedIntent">Autoriser l\'envoi d\'un message de fin de téléchargement a l\'application</string>
     <string name="download_unknown_title">&lt;pas de titre></string>
     <string name="notification_filename_separator">,\u0020</string>
-    <string name="notification_filename_extras">\u0020et %d telecharge</string>
+    <string name="notification_filename_extras">\u0020et %d téléchargés</string>
     <string name="notification_download_complete">Téléchargement terminé</string>
     <string name="notification_download_failed">Échec du téléchargement</string>
 </resources>

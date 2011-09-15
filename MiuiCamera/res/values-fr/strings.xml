@@ -2,8 +2,8 @@
 <resources>
     <string name="camera_error_title">Erreur</string>
     <string name="cannot_connect_camera">Impossible d\'établir une connexion avec l\'appareil photo.</string>
-    <string name="camera_label">Camera</string>
-    <string name="video_camera_label">Caméra MIUI</string>
+    <string name="camera_label">Photo</string>
+    <string name="video_camera_label">Caméra</string>
     <string name="gallery_camera_bucket_name">Photos de l\'appareil</string>
     <string name="gallery_camera_videos_bucket_name">Vidéos de la caméra</string>
     <string name="wait">Veuillez patienter...</string>
@@ -14,7 +14,7 @@
     <string name="image_file_name_format">\'IMG\'_yyyy-MM-dd_HHmmss</string>
     <string name="video_file_name_format">\'VID\'_yyyy-MM-dd_HHmmss</string>
     <string name="video_reach_size_limit">Limite de taille atteinte.</string>
-    <string name="burst_reach_count_limit">Limite atteinte.</string>
+    <string name="burst_reach_count_limit">Limite du nombre de rafale atteinte.</string>
     <string name="details_ok">OK</string>
     <string name="switch_to_camera_lable">Appareil Photo</string>
     <string name="switch_to_video_lable">Vidéo</string>
@@ -29,7 +29,7 @@
     <string name="burst">Rafale</string>
     <string name="color_effect">Effets</string>
     <string name="delay_snap">Retardateur</string>
-    <string name="screen_shutter">Obturation</string>
+    <string name="screen_shutter">Obturation tactile</string>
     <string name="silence">Silence</string>
     <string name="disable_silence">Désactiver le silence</string>
     <string name="setting">Paramètres</string>
@@ -55,7 +55,7 @@
     <string name="pref_camera_referenceline_goldenratio">Cadre2</string>
     <string name="pref_camera_scenedetect">Détecteur de scène</string>
     <string name="pref_camera_lensshade">Anti-reflets</string>
-    <string name="pref_camera_skintone_enhancement">Optimisation du rendu</string>
+    <string name="pref_camera_skintone_enhancement">Optimisation de la teinte de peau</string>
     <string name="pref_camera_other_setting">Autres paramètres</string>
     <string name="pref_camera_focusmode">Mode Focus</string>
     <string name="pref_camera_focusmode_auto">Auto</string>
@@ -77,7 +77,7 @@
     <string name="pref_camera_sharpness">Netteté</string>
     <string name="pref_camera_contrast">Contraste</string>
     <string name="pref_camera_saturation">Saturation</string>
-    <string name="pref_camera_coloreffect_none">Normal</string>
+    <string name="pref_camera_coloreffect_none">Aucun</string>
     <string name="pref_camera_coloreffect_mono">Mono</string>
     <string name="pref_camera_coloreffect_sepia">Sépia</string>
     <string name="pref_camera_coloreffect_negative">Négatif</string>
@@ -105,7 +105,7 @@
     <string name="pref_camera_scenemode_sports">Sports</string>
     <string name="pref_camera_scenemode_party">Fête</string>
     <string name="pref_camera_scenemode_candlelight">Bougie</string>
-    <string name="pref_camera_scenemode_backlight">Rétro-éclairage</string>
+    <string name="pref_camera_scenemode_backlight">Contre-jour</string>
     <string name="pref_camera_scenemode_flowers">Fleurs</string>
     <string name="pref_camera_antibanding">Réduction du scintillement</string>
     <string name="pref_camera_antibanding_auto">Auto</string>
@@ -114,7 +114,7 @@
     <string name="pref_camera_antibanding_off">Désactivé</string>
     <string name="pref_camera_iso">ISO</string>
     <string name="pref_camera_iso_auto">Auto</string>
-    <string name="pref_camera_iso_deblur">Deblur</string>
+    <string name="pref_camera_iso_deblur">Anti flou</string>
     <string name="pref_camera_iso_100">ISO 100</string>
     <string name="pref_camera_iso_200">ISO 200</string>
     <string name="pref_camera_iso_400">ISO 400</string>

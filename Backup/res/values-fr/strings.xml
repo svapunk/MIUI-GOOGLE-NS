@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="app_name">MIUI Backup</string>
-    <string name="local_app_name">Sauvegarde locale</string>
+    <string name="local_app_name">MIUI Backup</string>
     <string name="local_home_title">Sauvegarde locale</string>
     <string name="button_backup">Sauvegarder</string>
     <string name="start_backup">Sauvegarder</string>
@@ -13,7 +13,7 @@
     <string name="backup_recently">\u0020(dernière)</string>
     <string name="sdcard_unmounted">La carte SD n\'est pas présente, le programme va se fermer!</string>
     <string name="backup_progress">Sauvegarde en cours...</string>
-    <string name="button_ok">Ok</string>
+    <string name="button_ok">OK</string>
     <string name="backup_finished">Sauvegarde terminée</string>
     <string name="backup_report">Rapport de sauvegarde</string>
     <string name="backup_hint">Veuillez ne pas éteindre ou redémarrer le téléphone, afin d\'éviter tout risque de corruption des données</string>
@@ -24,8 +24,8 @@
     <string name="delete_backup_confirm">Confirmez-vous la suppression de la sélection ?</string>
     <string name="delete_backup_process">Suppression de la sélection, veuillez patientez...</string>
     <string name="backup_error">Erreur de sauvegarde</string>
-    <string name="delete_failed_backup_confirm">Le fichier de sauvegarde comprte une erreur, restauration impossible.</string>
-    <string name="batch_delete_backup_confirm">Confirmez-vous la suppression de la sélection ?</string>
+    <string name="delete_failed_backup_confirm">Le fichier de sauvegarde comporte une erreur, restauration impossible.</string>
+    <string name="batch_delete_backup_confirm">Confirmez-vous la suppression de la sélection?</string>
     <string name="start_restore">Restauration</string>
     <string name="backup_file_error">Problème fichiers de sauvegarde, l\'opération n\'est pas valide.</string>
     <string name="unit_byte">O</string>
@@ -53,7 +53,7 @@
     <string name="backup_update">Modifier</string>
     <string name="backup_delete">Supprimer</string>
     <string name="findlost_contact">Rechercher contact</string>
-    <string name="findlost_contact_online">Online resume contact</string>
+    <string name="findlost_contact_online">Restaurer contact supprimé depuis le réseau</string>
     <string name="cloud_backup_login">Se connecter</string>
     <string name="cloud_backup_hint">Vous devez être connecté pour sauvegarder et restaurer des données\nUtilisez la sauvegarde automatique afin d\'assurer la sécurité des données</string>
     <string name="cloud_backup_window_title">Sauvegarde réseau</string>
@@ -80,7 +80,7 @@
     <string name="task_finished">Terminé</string>
     <string name="task_canceled">Annulé</string>
     <string name="task_failed">Échoué</string>
-    <string name="task_canceled_local">L\'annulation de la tâche %1$s à réussie</string>
+    <string name="task_canceled_local">La tâche %1$s a été annulée.</string>
     <string name="task_canceled_all_local">Tâche annulée</string>
     <string name="task_failed_local">La tâche a échouée %1$s</string>
     <string name="task_failed_all_local">Tâche échouée</string>
@@ -92,12 +92,11 @@
     <string name="data_no_enough_space">Espace interne insuffisant, veuillez réessayer après nettoyage.</string>
     <string name="data_no_enough_space_warning">Espace interne inférieur à 30M, la restauration peut échouer, désirez-vous continuer ?</string>
     <string name="task_running_hint">Le service est en cours d\'exécution en arrière-plan, faire une sauvegarde et récupération plus tard!</string>
-    <string name="task_running_dialog">De sauvegarde et de récupération de fond est en cours, le voir, cliquez sur OK!</string>
+    <string name="task_running_dialog">Une tâche est actuellement en cours, pour continuer appuyez sur OK!</string>
     <string name="task_service_not_launched">Service de sauvegarde n\'est pas démarré, veuillez patientez!</string>
-    <string name="task_local_backup_cancel_dialog">La sauvegarde n\'est pas complète\nCliquez sur OK pour annuler cette sauvegarde</string>
-    <string name="task_cloud_backup_cancel_dialog">La sauvegarde n\'a pas été achevée\nCliquez sur OK pour supprimer la tâche inachevée</string>
-    <string name="task_restore_cancel_dialog">La restauration n\'est pas terminée\nInterrompre la tâche peut entraîner une corruption des données！</string>
-    <string name="task_backup_cancel_progress">Annulation de la sauvegarde...</string>
+    <string name="task_local_backup_cancel_dialog">Sauvegarde locale en cours\nCliquer sur OK pour annuler</string>
+    <string name="task_cloud_backup_cancel_dialog">Sauvegarde réseau en cours\nCliquer sur OK pour annuler</string>
+    <string name="task_restore_cancel_dialog">Restauration en cours\nL\'annulation peut corrompre vos données</string>    <string name="task_backup_cancel_progress">Annulation de la sauvegarde...</string>
     <string name="task_restore_cancel_progress">Annulation de la restauration...</string>
     <string name="nothing_searched">Aucun résultat</string>
     <string name="restore_counts">Récupération</string>
@@ -119,9 +118,9 @@
     <string name="button_finish">Terminer</string>
     <string name="progress_backup_hint">Sauvegarde de vos données...</string>
     <string name="cancel_backup">Arrêter la sauvegarde</string>
-    <string name="restore_contact">Restauration des contacts</string>
+    <string name="restore_contact">Restaurer des contacts</string>
     <string name="restore_contact_content">La restauration du carnet d\'adresse peut conduire à duplication de certaines fiches. Etes-vous sur de vouloir restaurer ce carnet d\'adresses ?\nNote: Vous pouvez fusionner les contacts en double à partir des paramètres du carnet d\'adresses.</string>
-    <string name="progress_restore_hint">Restauration des données\u0020</string>
+    <string name="progress_restore_hint">Restauration des données</string>
     <string name="cancel_restore">Annuler</string>
     <string name="local_backup_hint">Sauvegarde des contacts, messages texte, paramètres et données du programme système\nVous pouvez également enregistrer les APK et les données des programmes\nVous pouvez restaurer les anciens journaux</string>
     <string name="local_select_sysdata">Données système</string>
@@ -154,5 +153,5 @@
     <string name="refresh">Rafraîchir</string>
     <string name="cloud_item_info_summary">(Locale %1$s | En ligne %2$s)</string>
     <string name="total_num">%d enregistrement(s) au total</string>
-    <string name="cloud_restore_guide">Cliquer sur [Commencer la restauration] pour restaurer les données\n Vous pouvez aussi restaurer %s dans MIUI Backup</string>
+    <string name="cloud_restore_guide">Cliquez sur Restauration pour restaurer les données\n Vous pouvez également restaurer %s dans la sauvegarde</string>
 </resources>
